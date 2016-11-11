@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Proyecto</title>
+  <!--Mandamos a llamar a la hora de estilo css que contendra los diseños para nuestra pagina-->
+	<link rel="stylesheet" href="css/estilo1.css">
+</head>
+<body>
+	<div id="contenedor">
+
+		<header>
+    <!--Aqui declaramos las opciones que va a contener nuestra pagina mediante un menu-->
+      <nav>
+        <ul>
+        <li><a href="index.html"><img src="img/Ralph.png" title="logo" width="90px" height="42px" /></a></li>
+          <li class="activo"><a href="index.html">Inicio</a></li>
+          <li><a href="Descripcion.html">Descripcion</a></li>
+          <!--mostramos un menu desplegable mostrando los personajes divididos en aliados y enemigos-->
+          <li><a href="#">Personajes<img src="img/icon/expandmore.png" width="15"></a>
+            <ul>
+              <li><a href="aliados.html">Aliados</a></li>
+              <li><a href="villanos.html">Enemigos</a></li>
+            </ul>
+          </li>
+          <li><a href="reglas.html">Reglas</a></li>
+          <li><a href="jugar.html">Jugar</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="acercade.html">Acerca de</a></li>
+          
+        </ul>
+      </nav>
+  </header>
+  <!--Aqui tendremos la estructura para el slider de 4 imagenes en nuestra pagina-->
+  <div id="contenedor2">
+  <section class="contenedor-slider">
+      <figure>
+        <img src="img/slider/demoledor1.jpg" class="imguno" >
+        <img src="img/slider/demoledor2.jpg" class="imguno" >
+        <img src="img/slider/demoledor3.jpg" class="imguno" >
+        <img src="img/slider/demoledor4.jpg" class="imguno" >
+      </figure>
+  </section>
+  </div>
+
+  
+  <!--En este contenedor tendremos una breve descripcion de nustro juego-->
+  <section class="contenedorcitos">
+    <!--la funcion "br" sirve para colocar un salto de linea en nuestro proyecto-->
+    <br>
+    <br>
+  <div class="contenedorcitos">
+      <p>Nos encontramos con nuestro  personaje principal cual es  Ralph el demoledor,el cual  se encuentra en la búsqueda de una medalla,la cual le ayudadara a ser reconocido y aceptado ante los demás personajes de su videojuego para ello debera emprender un viaje en busqueda de la tal preciada medalla que tanto anhela para cumplir su sueño.</p><br><br>
+
+      <p></p>
+    </div>
+  </section>
+<!--Indicamos el cierre del cuerpo de nuestra estructura-->
+</body>
+<!--indicamos el footer de nuestra pagina (informacion de nuestras redes sociales, formas de contacto, y los creadores de este proyecto-->
+<footer>
+    <section id="sec-pie">
+      <!--Colocamos el primer acticulo de la pagina que contentra un link para intregar a la pagina: Acerda de-->
+      <article class="contenido-pie">
+        <h3>Acerca de</h3>
+        <p>Descubre a los creadores de este Proyecto y conoceras un poco sobre ellos. Descubre mas <a href="acercade.html">aqui</a>.</p>
+      </article>
+      <!--Colocaremos uns egundo articulo mostrando nuestras redes sociales-->
+      <article class="contenido-pie">
+        <h3>Redes Sociales</h3>
+        <p>Para que estes mas enterado de nuestro videojuego puedes seguirnos en nuestras redes sociales.</p>
+        <div class="images">
+          <img src="img/social/facebook.png" title="Facebook" alt="Facebook" class="social-img">
+          <img src="img/social/twitter.png" title="Twitter" alt="Twitter"class="social-img">
+          <img src="img/social/you_tube.png" title="Youtube" alt="Youtube" class="social-img">
+        </div>  
+      </article>
+      <!--Colocaremos un ultimo articulo mostrando nuestro enlace a la pagina "contactos" donde se podran comunicar con nosotros-->
+      <article class="contenido-pie">
+        <h3>Contacto</h3>
+        <p>Dudas y consultas que tengas consultanos, estamos para darte un servicio de la mejor manera contactanos desde <a href="contacto.html">aqui</a> .</p>
+      </article>
+    </section>
+    <p>Ralph el Demoledor 2016 | © Todos los Derechos Reservados</p>
+  </footer>
+  </div>
+</html>

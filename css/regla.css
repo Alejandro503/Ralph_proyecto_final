@@ -1,0 +1,73 @@
+
+.campo {
+	margin: 30px 10px 30px 10px; padding: 15px;
+	background-color:#10afaf;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+img.regla{
+     width: 300px; height: 200px;
+     margin: 5px 0px 0px 350px;
+	-webkit-box-shadow: 3px 3px 3px #888;
+	-moz-box-shadow: 3px 3px 3px #888;
+	box-shadow: 4px 4px 4px #888;
+}
+
+img.regla1{
+     width: 410px; height: 210px;
+     margin: 5px 0px 0px 350px;
+	-webkit-box-shadow: 3px 3px 3px #888;
+	-moz-box-shadow: 3px 3px 3px #888;
+	box-shadow: 4px 4px 4px #888;
+}
+
+p{
+   color: #000;
+   font-family: 'Times New Roman';
+   font-size: 20px;
+}
+
+h1{
+   color: #fff;
+   font-family:'Snap ITC';
+   text-align: left;
+   text-shadow: black 0.2em 0.2em 0.1em;
+   
+    
+}
+/* ESTILO PARA MOVILES */
+
+@media screen and (max-width: 480px) {
+
+img.regla{
+     width: 150px; height: 200px;
+     margin: 5px 0px 0px 50px;
+	
+}
+
+img.regla1{
+     width: 150px; height: 210px;
+       margin: 5px 0px 0px 50px;
+	
+	
+}
+
+}
+/* ESTILO PARA TABLET */
+
+@media screen and (min-width:481px) and (max-width:1200px) {  
+   	  img.regla{
+     width: 250px; height: 200px;
+     margin: 5px 0px 0px 205px;
+	
+}
+
+img.regla1{
+     width: 250px; height: 210px;
+     margin: 5px 0px 0px 205px;
+	 
+	
+}
+}

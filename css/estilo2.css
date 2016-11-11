@@ -1,0 +1,27 @@
+#imagen{
+	width: 60%;
+	float: right;
+	color: #7f8c8d;
+	
+}
+
+#img img{
+	width: 90%;
+	float: right;
+}
+
+#texto img{
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	width: 60%;
+}
+
+#texto p{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	color: #7f8c8d;
+	text-align: justify;
+}

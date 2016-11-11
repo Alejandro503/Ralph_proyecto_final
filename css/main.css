@@ -1,0 +1,95 @@
+
+.title{
+	background-color: blue;
+	position: center;
+	font-size: 50em;
+}
+
+#jugadores {
+	background-color: #DDD;
+	width: 810px; height: 557px;
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 10px;
+	-moz-border-radius-bottomleft: 10px;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+	-webkit-box-shadow: 2px 2px 3px 2px #888;
+    -moz-box-shadow: 2px 2px 3px 2px #888;
+    box-shadow:  2px 2px 3px 2px #888;
+}
+
+
+#pie {
+	width: 810px; height: 82px;
+	background-color: #333;
+	margin: 0px auto;
+	padding: 5px 10px;
+}
+
+#pie img {
+	margin: 0px; padding: 0px;
+}
+
+#redes {
+	float: left;
+}
+
+#notas {
+	float: right;
+	width: 250px;
+	padding: 0px 0px 0px 70px;
+	border-left: #666 solid 2px;
+}
+
+#notas p {
+	margin: 2px 0px 0px 0px;
+	float: left;
+	margin-right: 5px;
+	font-size: .8em;
+	color: #666;
+}
+
+
+.campeon {
+	margin: 30px 0px 30px 15px; padding: 15px;
+	background-color:#B0C4DE;
+	-webkit-border-radius: 0px 0px 10px 10px;
+	-moz-border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.campeon img {
+	float: left;
+	margin: -30px 0px 0px -30px;
+	-webkit-box-shadow: 3px 3px 3px #888;
+	-moz-box-shadow: 3px 3px 3px #888;
+	box-shadow: 3px 3px 3px #888;
+	
+}
+
+.campeon h1 {
+	font-size: .9em;
+	color: #C50C25;
+	font-weight: bold;
+	margin: 0px 0px 5px 65px;
+	text-align:justify;
+	
+}
+
+.campeon p, .campeon ul  {
+	font-size: .8em;
+	color: #0C65C5;
+	margin: .4em 0px 0px 65px;
+	
+}
+
+.campeon ul  {
+	margin-left: 82px;
+
+}
+
+.campeon a  {
+	color: #47C50C;
+}
+

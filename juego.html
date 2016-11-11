@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Serpientes y escaleras</title>
+    <link href="css/serpientesyescaleras.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="reloj" id="Horas">00</div>
+                <div class="reloj" id="Minutos">:00</div>
+                <div class="reloj" id="Segundos">:00</div>
+                <div class="reloj" id="Centesimas">:00</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <canvas id="tablero" width="650" height="650"></canvas>
+            </div>
+            <div class="col-md-3">
+                <input type="button" class="boton" id="inicio" value="Tirar dados &#9658;" onclick="tirarDado();">
+
+                <input type="button" class="boton" id="inicio" value="Borrar dados &#8635;" onclick="BorrarDatos();">
+            </div>
+            <div class="col-md-3">
+                <img alt="Dado" id="dado" name="dado" src="Images/dado1.png"/>
+            </div>
+            <div class="col-md-6" style="padding-top: 50px">
+                <table id="tabla" class="table table-bordered" border="2px">
+                    <thead>
+                        <tr>
+                            <th># </th>
+                            <th>Jugador</th>
+                            <th>Puntaje</th>
+                            <th>Record</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+            integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+            crossorigin="anonymous"></script>
+    <script src="js/cronometro.js"></script>
+    <script src="js/serpientesyescaleras.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+*{
+	/*La pagina en general se mostrar con un margen a ambos lados y con el tipo de letra Arial*/
+	padding: 0px;
+	margin: 0px;
+	box-sizing:border-box;
+	font-family: arial;
+	}
+
+.contenedorcitos img{
+	/*indicamos que la caja contenedorcitos se muestre 20% a la derecha y 20 a la izquierda, asi como 
+	muestre un margen de altura de 5% y su tamaño sera de un 60%*/
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 5%;
+	width: 60%;
+}
+
+table{
+	border-radius: 2px;
+	margin-left: 16%;
+}
+
+.boton{
+	outline: none;
+	border: 1px solid #363431;
+	color: white;
+	width: 180px;
+	height: 30px;
+	text-shadow: 0px -1px 1px black;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: Helvetica;
+	cursor: pointer;
+	background-image: linear-gradient(#3aad02,#2c6f05);
+	margin-left: 40%;
+}
+.boton:active{
+	background-image: linear-gradient(#2c6f05,#3aad02);
+}
+.boton:hover{
+	box-shadow: 0px 0px 14px #3aad02;
+}
+
+.buton{
+	outline: none;
+	border: 1px solid #363431;
+	color: white;
+	width: 180px;
+	height: 30px;
+	text-shadow: 0px -1px 1px black;
+	font-size: 20px;
+	border-radius: 5px;
+	font-family: Helvetica;
+	cursor: pointer;
+	background-image: linear-gradient(#3aad02,#2c6f05);
+	text-align: center;
+}
+.buton:active{
+	background-image: linear-gradient(#2c6f05,#3aad02);
+}
+.buton:hover{
+	box-shadow: 0px 0px 14px #3aad02;
+}
